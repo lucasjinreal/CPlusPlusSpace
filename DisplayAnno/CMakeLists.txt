@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)  
+project(DisplayAnno)  
+find_package(OpenCV REQUIRED)  
+add_executable(DisplayAnno main.cpp solvecsv.cpp)
+target_link_libraries(DisplayAnno ${OpenCV_LIBS})  

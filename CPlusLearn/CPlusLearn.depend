@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1484818446 source:/home/jfg/Documents/CPlusPlusSpace/CPlusLearn/main.cpp
+	<iostream>
+	<cstdlib>
+	<vector>
+	<cstring>
+
+1484817200 source:/home/jfg/Documents/CPlusPlusSpace/CPlusLearn/aboutfile.cpp
+	<iostream>
+	<string>
+	<fstream>
+
+1484815219 /home/jfg/Documents/CPlusPlusSpace/CPlusLearn/aboutfile.cpp
+	<iostream>
+	<string>
+
+1484819286 source:/home/jfg/Documents/CPlusPlusSpace/CPlusLearn/aboutcv.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/opencv.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1450450936 /home/jfg/opencv-3.1.0/include/opencv2/opencv.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/video.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/ml.hpp"
+

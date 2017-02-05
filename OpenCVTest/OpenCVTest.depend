@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1483764705 source:/home/jfg/Documents/CPlusPlusSpace/OpenCVTest/main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/opencv.hpp>
+	<iostream>
+	<opencv2/highgui/highgui.hpp>
+	<vector>
+
+1483764270 source:/home/jfg/Documents/CPlusPlusSpace/OpenCVTest/test.cpp
+	<iostream>
+

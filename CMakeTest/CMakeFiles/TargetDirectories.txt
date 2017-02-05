@@ -1,0 +1,3 @@
+/home/jfg/Documents/CPlusPlusSpace/CMakeTest/CMakeFiles/edit_cache.dir
+/home/jfg/Documents/CPlusPlusSpace/CMakeTest/CMakeFiles/rebuild_cache.dir
+/home/jfg/Documents/CPlusPlusSpace/CMakeTest/CMakeFiles/testcmake.dir
