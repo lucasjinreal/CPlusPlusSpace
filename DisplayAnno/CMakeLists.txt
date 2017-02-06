@@ -6,6 +6,8 @@ find_package(OpenCV REQUIRED)
 find_package( Boost REQUIRED COMPONENTS)
 include_directories( ${Boost_INCLUDE_DIRS} )
 
+SET(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+SET(BUILD_SHARED_LIBRARIES OFF)
 
 add_executable(DisplayAnno main.cpp solvecsv.cpp)
 target_link_libraries(DisplayAnno
