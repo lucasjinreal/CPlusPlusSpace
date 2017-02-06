@@ -1,4 +1,5 @@
 /opt/clion-2016.3.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/jfg/Documents/CPlusPlusSpace/DisplayAnno
+-- Boost version: 1.58.0
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jfg/Documents/CPlusPlusSpace/DisplayAnno

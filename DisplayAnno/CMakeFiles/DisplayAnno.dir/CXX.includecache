@@ -25,6 +25,20 @@ iostream
 -
 fstream
 -
+vector
+-
+map
+-
+boost/algorithm/string.hpp
+-
+dirent.h
+-
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

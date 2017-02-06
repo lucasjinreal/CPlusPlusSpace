@@ -9,29 +9,16 @@
 using namespace cv;
 using namespace std;
 
-void PlotTrafficLightsBox(char *csvFileName, char *imageFileRoot);
+void PlotTrafficLightsBox(char *labelFileName, char *imageFileRoot, char *imageList);
 
 int main(int argc, char *argv[])
 {
-	string image_path = String(argv[1]);
-	cout << image_path << endl;
+	char *imageRoot = argv[1];
+    char *imageList = argv[2];
+    char labelsFile[256] = "./dayTrain_box_anno_all.csv";
 
-    string value;
-    char csvFile[256] = "./dayTrain_box_anno_all.csv";
-    char imageRoot[256] = "./dayTraining";
-    PlotTrafficLightsBox(csvFile, imageRoot);
+    PlotTrafficLightsBox(labelsFile, imageRoot, imageList);
 
-
-    Mat img = imread(image_path, CV_LOAD_IMAGE_COLOR);
-    if(img.empty())
-       return -1;
-
-
-	rectangle(img, cvPoint(20, 20), cvPoint(300, 300), CV_RGB(2, 34, 5), 1, 8);
-
-    namedWindow( "lena", CV_WINDOW_AUTOSIZE );
-    imshow("lena", img);
-    waitKey(0);
     return 0;
 }
 
